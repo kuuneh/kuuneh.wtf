@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+html {
+	background-color:#201c2c;
+}
+
+.top {
+	position:sticky;
+	top:0;
+	height:30px;
+	padding-bottom:5px
+	
+}
+.toptextl {
+	position:absolute;
+	color:#a6a6a6;
+	display:inline;
+}
+.toptextm {
+	position:absolute;
+	color:#a6a6a6;
+	margin:auto;
+	padding-left:47%;
+}
+.toptextr {
+	position:absolute;
+	color:#a6a6a6;
+	display:inline;
+	right:0;
+}
+
+.bubble1 {
+	z-index:5;
+	display: flex;
+	padding: 10px;
+	top:6em;
+	left:43em;
+	width: 27%;
+	height:9%;
+	position: absolute;
+	border-radius: 90px;
+	justify-content: center;
+	background-color: rgba(50, 44, 64, 0.8);
+	backdrop-filter: blur(15px);
+	box-shadow:5px 5px 5px rgba(10,10,10,0.1);
+	transition:.1s;
+}
+.bubble1:hover {
+	transform: translateX(0%) scale(1.1) translateZ(0px);
+}
+
+.bubble2 {
+	z-index:4;
+	display: flex;
+	padding: 15px;
+	top:4em;
+	left:15em;
+	width: 27%;
+	height:9%;
+	position: absolute;
+	border-radius: 90px;
+	justify-content:center;
+	background-color: rgba(50, 44, 64, 0.8);
+	backdrop-filter: blur(15px);
+	box-shadow:5px 5px 5px rgba(10,10,10,0.1);
+	transition:.1s;
+}
+.bubble2:hover {
+	transform: translateX(0%) scale(1.1) translateZ(0px);
+}
+
+.bubble3 {
+	z-index:4;
+	display: flex;
+	padding: 15px;
+	top:4em;
+	left:70em;
+	width: 27%;
+	height:9%;
+	position: absolute;
+	border-radius: 90px;
+	justify-content: center;
+	background-color: rgba(50, 44, 64, 0.8);
+	backdrop-filter: blur(15px);
+	box-shadow:5px 5px 5px rgba(10,10,10,0.1);
+	transition:.1s;
+}
+.bubble3:hover {
+	transform: translateX(0%) scale(1.1) translateZ(0px);
+}
+.aboutme {
+	z-index:5;
+	padding: 10px;
+	width: 30%;
+	height:40%;
+	bottom:10%;
+	position: absolute;
+	border-radius: 90px;
+	text-align:center;
+	background-color: rgba(50, 44, 64, 0.8);
+	backdrop-filter: blur(15px);
+	box-shadow:5px 5px 5px rgba(10,10,10,0.1);
+	transition:.1s;
+}
+
+.portfolio {
+	z-index:5;
+	padding: 10px;
+	width: 30%;
+	height:40%;
+	bottom:10%;
+	left:80em;
+	position: absolute;
+	border-radius: 90px;
+	text-align:center;
+	background-color: rgba(50, 44, 64, 0.8);
+	backdrop-filter: blur(15px);
+	box-shadow:5px 5px 5px rgba(10,10,10,0.1);
+	transition:.1s;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.courier {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+#move{
+    background: radial-gradient(
+	rgba(75,78,117, 0.75),
+        rgba(255,0,106,0),
+	rgba(155,155,155,0)
+    ) ;
+    height: 150px;
+    aspect-ratio: 1;
+    left: 50%;
+    top: 50%;
+    border-radius:100%;
+    backdrop-filter: blur(1px);
+    transform: translate(-45%, -45%);
+    position: fixed;
+}
