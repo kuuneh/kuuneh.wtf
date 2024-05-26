@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 html {
-	background-color:#201c2c;
+	background-color:#ffffff;
 }
 
 .top {
@@ -13,18 +13,18 @@ html {
 }
 .toptextl {
 	position:absolute;
-	color:#a6a6a6;
+	color:#000000;
 	display:inline;
 }
 .toptextm {
 	position:absolute;
-	color:#a6a6a6;
+	color:#000000;
 	margin:auto;
 	padding-left:47%;
 }
 .toptextr {
 	position:absolute;
-	color:#a6a6a6;
+	color:#000000;
 	display:inline;
 	right:0;
 }
@@ -34,13 +34,13 @@ html {
 	display: flex;
 	padding: 10px;
 	top:6em;
-	left:43em;
-	width: 27%;
+	left:36%;
+	width: 30%;
 	height:9%;
 	position: absolute;
 	border-radius: 90px;
 	justify-content: center;
-	background-color: rgba(50, 44, 64, 0.8);
+	background-color: rgba(92, 92, 92, 0.8);
 	backdrop-filter: blur(15px);
 	box-shadow:5px 5px 5px rgba(10,10,10,0.1);
 	transition:.1s;
@@ -54,13 +54,13 @@ html {
 	display: flex;
 	padding: 15px;
 	top:4em;
-	left:15em;
+	left:10%;
 	width: 27%;
 	height:9%;
 	position: absolute;
 	border-radius: 90px;
 	justify-content:center;
-	background-color: rgba(50, 44, 64, 0.8);
+	background-color: rgba(92, 92, 92, 0.8);
 	backdrop-filter: blur(15px);
 	box-shadow:5px 5px 5px rgba(10,10,10,0.1);
 	transition:.1s;
@@ -74,13 +74,13 @@ html {
 	display: flex;
 	padding: 15px;
 	top:4em;
-	left:70em;
+	left:65%;
 	width: 27%;
 	height:9%;
 	position: absolute;
 	border-radius: 90px;
 	justify-content: center;
-	background-color: rgba(50, 44, 64, 0.8);
+	background-color: rgba(92, 92, 92, 0.8);
 	backdrop-filter: blur(15px);
 	box-shadow:5px 5px 5px rgba(10,10,10,0.1);
 	transition:.1s;
@@ -97,7 +97,7 @@ html {
 	position: absolute;
 	border-radius: 90px;
 	text-align:center;
-	background-color: rgba(50, 44, 64, 0.8);
+	background-color: rgba(92, 92, 92, 0.8);
 	backdrop-filter: blur(15px);
 	box-shadow:5px 5px 5px rgba(10,10,10,0.1);
 	transition:.1s;
@@ -109,11 +109,11 @@ html {
 	width: 30%;
 	height:40%;
 	bottom:10%;
-	left:71em;
+	left:60%;
 	position: absolute;
 	border-radius: 90px;
 	text-align:center;
-	background-color: rgba(50, 44, 64, 0.8);
+	background-color: rgba(92, 92, 92, 0.8);
 	backdrop-filter: blur(15px);
 	box-shadow:5px 5px 5px rgba(10,10,10,0.1);
 	transition:.1s;
@@ -132,7 +132,7 @@ html {
 }
 #move{
     background: radial-gradient(
-	rgba(75,78,117, 0.75),
+	rgba(0,0,0, 0.75),
         rgba(255,0,106,0),
 	rgba(155,155,155,0)
     ) ;
