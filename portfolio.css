@@ -38,6 +38,22 @@ html {
 	display:inline;
 	right:0;
 }
+.portbubble {
+	z-index:5;
+	padding: 1%;
+	right:35%;
+	top:20%;
+	width: 30%;
+	height:40%;
+	position: absolute;
+	border-radius: 90px;
+	text-align:center;
+	margin:auto;
+	background-color: rgba(92, 92, 92, 0.8);
+	backdrop-filter: blur(15px);
+	box-shadow:5px 5px 5px rgba(10,10,10,0.1);
+	transition:.1s;
+}
 .montserrat {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;

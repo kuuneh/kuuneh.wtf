@@ -120,6 +120,23 @@ html {
 	transition:.1s;
 }
 
+.innerbubble {
+	z-index:5;
+	display: inline-flex;
+	padding:1%;
+	width: 50%;
+	height:20%;
+	position: relative;
+	border-radius: 90px;
+	justify-content: center;
+	background-color: rgba(92, 92, 92, 0.8);
+	backdrop-filter: blur(15px);
+	box-shadow:5px 5px 5px rgba(10,10,10,0.1);
+	transition:.1s;
+}
+.innerbubble:hover {
+	transform: translateX(0%) scale(1.1) translateZ(0px);
+}
 .montserrat {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
