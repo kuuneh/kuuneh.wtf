@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+html {
+	background-color:#7d7b7d;
+}
+
+.spinnygif {
+	position:fixed;
+	right:0;
+
+}
+.spinnygif:hover {
+	transform: translateX(0%) scale(1.1) translateZ(0px);
+}
+.top {
+	position:sticky;
+	top:0;
+	height:30px;
+	padding-bottom:5px
+	
+}
+.toptextl {
+	position:absolute;
+	color:#000000;
+	display:inline;
+}
+.toptextm {
+	position:absolute;
+	color:#000000;
+	margin:auto;
+	padding-left:47%;
+}
+.toptextr {
+	position:absolute;
+	color:#000000;
+	display:inline;
+	right:0;
+}
+.portbubble {
+	z-index:5;
+	padding: 1%;
+	right:35%;
+	top:20%;
+	width: 30%;
+	height:40%;
+	position: absolute;
+	border-radius: 90px;
+	text-align:center;
+	margin:auto;
+	background-color: rgba(92, 92, 92, 0.8);
+	backdrop-filter: blur(15px);
+	box-shadow:5px 5px 5px rgba(10,10,10,0.1);
+	transition:.1s;
+}
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.courier {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
