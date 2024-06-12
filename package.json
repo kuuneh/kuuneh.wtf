@@ -25,6 +25,8 @@
     "url": "https://github.com/VincentGarreau/particles.js/issues"
   },
   "dependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.1.0",
     "three": "^0.164.1"
   },
   "devDependencies": {

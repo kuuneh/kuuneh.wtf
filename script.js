@@ -11,4 +11,3 @@ document.body.onpointermove = event => {
     }, {duration: 1000, fill: "forwards"})
 
 }
-
