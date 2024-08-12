@@ -1,13 +1,25 @@
-const move = document.getElementById("move");
+jQuery(function($) {
+    $('#name').mouseover(function() {
+        var dWidth = $(document).width() - 100, // 100 = image width
+            dHeight = $(document).height() - 100, // 100 = image height
+            nextX = Math.floor(Math.random() * dWidth),
+            nextY = Math.floor(Math.random() * dHeight);
+        $(this).animate({ left: nextX + 'px', top: nextY + 'px' });
+    });
+});
+function sendMessage() {
+      var request = new XMLHttpRequest();
+      var input = document.getElementById('input').value;
+	
+      request.open("POST","https://discord.com/api/webhooks/1272372201995374684/XU8eQVoY6sgZui8pR2ptcKD-Lexutdqx36XLGaAPGQOX6ye-fJ70w6okcRkUb0ns9IB_");
 
+      request.setRequestHeader('Content-type', 'application/json');
 
-document.body.onpointermove = event => {
-    const { clientX, clientY } = event;
+      var params = {
+        username: "kuuneh.wtf",
+        avatar_url: "",
+        content: input
+      }
 
-    move.animate({
-        left: `${clientX}px`,
-        top: `${clientY}px`
-    
-    }, {duration: 1000, fill: "forwards"})
-
-}
+      request.send(JSON.stringify(params));
+    };
