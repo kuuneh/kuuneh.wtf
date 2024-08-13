@@ -7,6 +7,9 @@ jQuery(function($) {
         $(this).animate({ left: nextX + 'px', top: nextY + 'px' });
     });
 });
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
 function sendMessage() {
       var request = new XMLHttpRequest();
       var input = document.getElementById('input').value;
@@ -22,4 +25,10 @@ function sendMessage() {
       }
 
       request.send(JSON.stringify(params));
+	const para = document.createElement("p");
+	const node = document.createTextNode("sent");
+	para.appendChild(node);
+	const element = document.getElementById("div1");
+	element.appendChild(para);
+	sleep(1000).then(() => { node.remove(); });
     };
