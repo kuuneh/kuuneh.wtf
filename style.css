@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'helvob'
+	src: url('resources/HelveticaBoldOblique')
+}
+
+h1 {
+	font-family: helvob;
+	color: white;
+}
+		
